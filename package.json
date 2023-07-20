@@ -22,7 +22,7 @@
   "storybook": {
     "displayName": "Nuxt + Storybook"
   },
-  "main": "dist/preset.js",
+  "main": "src/preset.ts",
   "files": [
     "dist",
     "runtime"
