@@ -19,6 +19,7 @@ const props = defineProps<Props>()
 const emit = defineEmits<Emit>()
 
 const classes = computed(() => ({
+  'm-5': true,
   'storybook-button': true,
   'storybook-button--primary': props.primary,
   'storybook-button--secondary': !props.primary,
@@ -33,6 +34,7 @@ const onClick = () => {
   emit('click')
 }
 </script>
+
 <template>
   <button type="button" :class="classes" :style="style" @click="onClick">
     {{ label }}

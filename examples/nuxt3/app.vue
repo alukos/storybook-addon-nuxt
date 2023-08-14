@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <BaseButton label="Button"/>
   </div>
 </template>
